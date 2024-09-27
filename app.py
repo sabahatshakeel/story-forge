@@ -9,7 +9,7 @@ load_dotenv()
 # Retrieve API key from environment variable
 api_key = os.getenv('Claude_api_key')
 
-# Initialize Anthropic client with API key
+# Initialize Anthropic client with api key
 client = anthropic.Anthropic(api_key=api_key)
 
 # Define the functions for generating game content
